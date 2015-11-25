@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:text="category"
+        android:textSize="9pt"
+        android:id="@+id/txtCategory"
+        android:textIsSelectable="false" />
+    <TextView
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:text="item"
+        android:textSize="9pt"
+        android:id="@+id/txtItem"
+        android:layout_weight="0.34"
+        android:autoText="false" />
+    <TextView
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:text="cash"
+        android:textSize="9pt"
+        android:id="@+id/txtCash"
+        android:layout_weight="0.35" />
+
+</LinearLayout>
